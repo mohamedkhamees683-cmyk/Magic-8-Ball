@@ -8,3 +8,5 @@ responses=[
 "Better not tell you now",
 "concentrate and ask again"
 ]
+def get_Random_repo():
+    return random.choice(responses)
