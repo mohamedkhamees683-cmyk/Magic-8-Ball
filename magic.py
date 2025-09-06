@@ -41,3 +41,15 @@ def play_Again():
         else:
             print("enter type 'yes' or 'no' ")
 >>>>>>> feature4
+def magic_8_ball():
+    print("welcome")
+    while True :
+        question=get_Random_repo
+        if question is None :
+            break
+        response=get_Random_repo
+        display_response(response)
+        if not play_Again():
+            break
+if __name__=="__main__":
+    magic_8_ball
