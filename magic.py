@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 def get_user_guess():
     while True :
         try:
@@ -23,3 +24,7 @@ responses=[
 def get_Random_repo():
     return random.choice(responses)
 >>>>>>> feature2
+=======
+def display_response(response):
+    print("\nthe Magic ball says:",response,"\n")
+>>>>>>> feature3
